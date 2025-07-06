@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        .container{
+            height:100%;
+            width: 100%;
+            min-height: 900px;
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title{
+            display: flex;
+            flex-direction: row;
+            margin: 2px;
+        }
+        .card{
+            width: 350px;
+            height: 500px;
+            background-color: rgba(209, 198, 198, 0.607);
+            border-radius: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+        .heading{
+            font-size: 2rem;
+            padding-left: 15px;
+            margin-bottom: 4px;
+        }
+        .heading p{
+            font-size: bold;
+        }
+        .left{
+            display: flex;
+            border: none;
+            background-color: #c1dcec;
+            padding: 0.65rem 1.5rem;
+            border-radius: 2rem;
+            margin-top: 4px;
+            margin-left: 5px;
+            color: white;
+        }
+        .right{
+            display: flex;
+            border: none;
+            background-color: #c1dcec;
+            color: white;
+            padding: 0.65rem 1.5rem;
+            border-radius: 2rem;
+            margin-top: 4px;
+            margin-left: 5px;
+        }
+        
+        .imag{
+            display: flex;
+            margin-top: 5px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 2px;
+        }
+        .imag img{
+            width: 340px;
+            border-radius: 10px;
+
+        }
+        .title{
+            border-radius: 2px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="imag">
+                <img src="./download.jpg" alt="">
+            </div>
+            <div class="title">
+                <div class="left"><a href="#!">Nature</a></div>
+                <div class="right"><a href="#!">Lake</a></div>
+            </div>
+            <div class="heading"><p>Lago di Braies</p></div>
+            <div class="para">
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur dolores corrupti quidem, error labore sint unde voluptatibus earum commodi eligendi at adipisci laborum enim rem optio exercitationem libero tempora iure.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
