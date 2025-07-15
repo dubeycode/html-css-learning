@@ -1,0 +1,63 @@
+.container{
+    background-color: rgb(12, 12, 12);
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+    
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.card{
+    height: 140px;
+    width: 60%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+   
+    margin: 2px;
+    /* background-color: rgb(79, 78, 78); */
+}
+
+.capsul{
+    position:absolute;
+    bottom: 0;
+    z-index: 10;
+    right: 666px;
+    background: #242020;
+    border-radius: 0.2rem;
+    opacity: 0.9;
+    /* color: white; */
+    padding: 2px;
+    color: white;
+}
+
+.thumbnil{
+    display: flex;
+    
+}
+
+.data{
+    margin-top: 1rem;
+    display: flex;
+    gap: 9px;
+    font-size: 20px;
+}
+
+.title{
+    /* color: rgb(216, 205, 205); */
+    color: white;
+    font-size: 19px;
+}
